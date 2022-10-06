@@ -484,18 +484,19 @@ hr {
   text-align: center;
   background-color: #99E2D0;
 }
-.dish-box .check-button .fa-check {
+.dish-box .fa-check {
   color: #99E2D0;
   border-radius: 50%;
   padding: 4px 5px;
   margin-top: 25px;
   background-color: white;
 }
-.dish-box .flex-item-left {
+
+.flex-item-left {
   flex: 85%;
   min-width: 0;
 }
-.dish-box .flex-item-left h3 {
+.flex-item-left h3 {
   margin: 15px 5px 7px 10px;
   font-weight: 500;
   font-size: 18px;
@@ -503,40 +504,43 @@ hr {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.dish-box .flex-item-left p {
+.flex-item-left p {
   margin: 0 5px 0 10px;
   font-size: 15px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.dish-box .flex-item-right {
+
+.flex-item-right {
   flex: 15%;
 }
-.dish-box .flex-item-right p {
+.flex-item-right p {
   font-weight: 500;
   margin: 0;
   text-align: center;
 }
-.dish-box .dish-desc:hover .desc-flex-item {
+
+.dish-desc:hover .desc-flex-item {
   flex: auto;
 }
-.dish-box .dish-desc:hover .flex-item-left {
+.dish-desc:hover .flex-item-left {
   flex: 80%;
   padding-bottom: 18px;
 }
-.dish-box .dish-desc:hover .flex-item-right {
+.dish-desc:hover .flex-item-right {
   flex: 20%;
   padding-bottom: 18px;
 }
-.dish-box .dish-desc:hover .icon-block {
+.dish-desc:hover .icon-block {
   display: inline-block;
   animation: turn 0.5s;
 }
-.dish-box .dish-desc:hover .check-button {
+.dish-desc:hover .check-button {
   display: inline-block;
   animation: slide 0.5s;
 }
+
 @keyframes slide {
   0% {
     transform: translateX(100%);
@@ -553,7 +557,6 @@ hr {
     transform: rotate(360deg);
   }
 }
-
 @keyframes slideIn-Y {
   0% {
     transform: translateY(25%);
